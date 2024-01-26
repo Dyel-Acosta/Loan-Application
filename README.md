@@ -14,12 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # Bonus Questions:
 ### Question 1. What's the difference between 'const' and 'var' in JavaScript?
-<br>
 In JavaScript, we have three keywords `var`, `let`, and `const` for declaring variables. Among them, `var` is the oldest. It provides function scope (Global scope), meaning variables declared with var outside a function can be accessed globally, and those declared inside a function are accessible only within that function. On the other hand, `const` a value has to be assigned, and prohibits updates thereafter, hence having the characteristic of immutability.
 
 
 ### Question 2. Write a query to return all customers from a table named users where the age is greater than 25.
-<br/> 
 We will need to filter the "users" using the command WHERE. The query is as follows:
 **`SELECT *`
 <br>
