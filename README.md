@@ -33,3 +33,5 @@ This query will return all rows from the "users" table where the value in the ag
 
 `Inner Join` is used when we want to return records having pair on both sides (matching values in both tables), whilst `Left Join` is utilized when we need records from the "left" table, and the matched records from the right table. This concept can be illustrated using Venn diagrams for better visulization. 
 
+
+
