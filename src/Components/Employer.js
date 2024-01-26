@@ -10,7 +10,9 @@ const Employer = () => {
         const response = await fetch('https://auto-pay-api-sgiognjnfa-uc.a.run.app/auto-pay/get-ui-params');
         const data = await response.json();
         setEmployers(data.employers);
-      } 
+      } catch (error) {
+        console.error('Error fetching employer data:', error);
+      }
     };
 
     fetchData();
