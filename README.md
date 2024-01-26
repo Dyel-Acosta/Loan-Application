@@ -41,3 +41,5 @@ The image illustrates the visual representation of the application. It possesses
 
 ![Github logo](https://github.com/Dyel-Acosta/Loan-Application/blob/47c0b2862b0c7964e171e18d4d87ec10949cbd88/APP.png)
 
+
+
