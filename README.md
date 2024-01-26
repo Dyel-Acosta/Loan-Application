@@ -39,5 +39,5 @@ This query will return all rows from the "users" table where the value in the ag
 
 The image illustrates the visual representation of the application. It possesses the capability to search for employers in real-time. If there's a need to switch between tables, one can simply click on the "Employer" and "Job List" options located in the top left corner.
 
-
+![Github logo](https://github.com/Dyel-Acosta/Loan-Application/blob/47c0b2862b0c7964e171e18d4d87ec10949cbd88/APP.png)
 
