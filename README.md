@@ -33,5 +33,11 @@ This query will return all rows from the "users" table where the value in the ag
 
 `Inner Join` is used when we want to return records having pair on both sides (matching values in both tables), whilst `Left Join` is utilized when we need records from the "left" table, and the matched records from the right table. This concept can be illustrated using Venn diagrams for better visulization. 
 
+<br>
+
+# Application Interface
+
+The image illustrates the visual representation of the application. It possesses the capability to search for employers in real-time. If there's a need to switch between tables, one can simply click on the "Employer" and "Job List" options located in the top left corner.
+
 
 
