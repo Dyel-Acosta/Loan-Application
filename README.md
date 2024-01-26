@@ -19,7 +19,7 @@ In JavaScript, we have three keywords `var`, `let`, and `const` for declaring va
 
 
 ### Question 2. Write a query to return all customers from a table named users where the age is greater than 25.
-<br><br/> 
+<br/> 
 We will need to filter the "users" using the command WHERE. The query is as follows:
 **`SELECT *`
 <br>
