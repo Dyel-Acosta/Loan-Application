@@ -10,7 +10,7 @@ To access the application, click on the following link:
 You can downloand the application and run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
+# Bonus Questions:
 ### Question 1. What's the difference between 'const' and 'var' in Javascript?
 
 
