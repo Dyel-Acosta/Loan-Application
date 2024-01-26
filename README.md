@@ -1,25 +1,22 @@
 # Loan-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a single-page application designed to fetch information about employers and job titles and put in table to used in a Loan Management system.
 
-## Available Scripts
+## Direct Link to View the Application
 
-In the project directory, you can run:
+To access the application, click on the following link:
 
-### `npm start`
-
-Runs the app in the development mode.\
+### No Externa Dependencies were Installed
+You can downloand the application and run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Question 1
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Question 2
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +26,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Question 3
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
