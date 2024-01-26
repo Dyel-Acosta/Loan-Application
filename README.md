@@ -22,7 +22,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### Question 2. Write a query to return all customers from a table named users where the age is greater than 25.
 We will need to filter the "users" using the command WHERE. The query is as follows:
 <br>
-**`SELECT` *
+**`SELECT *`
 <br>
 `FROM users` 
 <br>
