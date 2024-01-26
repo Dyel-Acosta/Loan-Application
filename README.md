@@ -4,7 +4,9 @@ This is a single-page application designed to fetch information about employers 
 
 ## Direct Link to View the Application
 
-To access the application, click on the following link:
+To access the application, click on the following link: https://dyel-acosta.github.io/Loan-App/
+
+**If it appears blank, data is loading**
 
 ### No External Dependencies were Installed
 You can downloand the application and run the app in the development mode.\
