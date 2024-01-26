@@ -1,0 +1,155 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #d3dce6;
+  font-family: monospace;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Overall container */
+.popup {
+  width: 90%;
+  min-height: 580px;
+  max-height: 600px;
+  border-radius: 48px;
+  box-sizing: border-box;
+  border: 12px solid #ebf0f4;
+  background-color: #dfe6ed;
+  overflow: hidden;
+  box-shadow: 16px 16px 48px #2e364330;
+  
+  display: flex;
+  flex-direction: row; /* Employer and List*/
+}
+
+.tabs {
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  display: flex;
+  flex-direction: column;
+  top: calc(-100%);
+  left: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.marker #bottom,
+.marker #top {
+  background-color: #ebf0f4;
+  box-shadow: 32px 32px 48px #2e364315;
+  text-align: center;
+}
+
+.marker #top {
+  height: calc(30%);
+  margin-bottom: auto;
+  margin-top: 0px;
+  border-radius: 0 0 32px 0;
+}
+
+.marker #bottom {
+  height: calc(50% - 72px);
+  border-radius: 0 32px 0 0;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #525d6f;
+  opacity: 0.4;
+  transition: opacity 0.4s ease-in-out;
+  width: calc(100% - 48px);
+  text-align: right;
+  z-index: 100;
+  user-select: none;
+}
+
+input[type="radio"] {
+  display: none;
+  width: 0;
+}
+
+label:hover,
+input[type="radio"]:checked+label {
+  opacity: 100;
+}
+
+.tab-content {
+  flex: 5;
+}
+
+table {
+  width: 97%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Code for the Id and Item */
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+.sticky-container {
+  position: sticky;
+  top: -0.3px;
+  background-color: #dfe6ed;
+  z-index: 1;
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  max-height: calc(100vh - 40px); 
+  /* Control ID & Item box size */
+  min-height: 440px;
+  max-height: 420px;   
+}
+
+/*Responsiveness box */
+@media only screen and (max-width: 768px) {
+  .popup {
+    flex-direction: column;
+  }
+
+  .tabs {
+    max-width: none;
+    width: 100%;
+  }
+
+  .tab-content {
+    flex: none;
+    width: 100%;
+  }
+}
