@@ -20,14 +20,12 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Question 2. Write a query to return all customers from a table named users where the age is greater than 25.
+We will need to filter the "users" using the command WHERE. The query is as follows:
+SELECT *
+FROM users
+WHERE age > 25
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This query will return all rows from the "users" table where the value in the age column is greater than 25.
 
 ### Question 3. What's the difference between inner join and left join in sql. 
 
