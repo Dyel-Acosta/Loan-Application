@@ -11,10 +11,10 @@ To access the application, click on the following link: https://dyel-acosta.gith
 ### No External Dependencies were Installed
 You can downloand the application and run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+<br>
 # Bonus Questions:
 ### Question 1. What's the difference between 'const' and 'var' in JavaScript?
-<br><br>
+<br>
 In JavaScript, we have three keywords `var`, `let`, and `const` for declaring variables. Among them, `var` is the oldest. It provides function scope (Global scope), meaning variables declared with var outside a function can be accessed globally, and those declared inside a function are accessible only within that function. On the other hand, `const` a value has to be assigned, and prohibits updates thereafter, hence having the characteristic of immutability.
 
 
