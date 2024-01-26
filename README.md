@@ -11,7 +11,7 @@ To access the application, click on the following link: https://dyel-acosta.gith
 ### No External Dependencies were Installed
 You can downloand the application and run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-<br>
+
 # Bonus Questions:
 ### Question 1. What's the difference between 'const' and 'var' in JavaScript?
 <br>
@@ -19,9 +19,8 @@ In JavaScript, we have three keywords `var`, `let`, and `const` for declaring va
 
 
 ### Question 2. Write a query to return all customers from a table named users where the age is greater than 25.
-
+<br><br/> 
 We will need to filter the "users" using the command WHERE. The query is as follows:
-<br>
 **`SELECT *`
 <br>
 `FROM users` 
